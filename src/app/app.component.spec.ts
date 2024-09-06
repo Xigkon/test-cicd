@@ -11,7 +11,7 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app).toBeNull();
+    expect(app).toBeUndefined();
   });
 
   it(`should have the 'test-cicd' title`, () => {
